@@ -45,7 +45,7 @@
       <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     </config-file>
 
-    <source-file src="src/com/phonegap/alipay/Pgalipay.java" target-dir="src/com/phonegap/alipay"/>
+    <source-file src="src/android/com/phonegap/alipay/Pgalipay.java" target-dir="src/com/phonegap/alipay"/>
     <lib-file src="libs/alipaySdk-20160223.jar" arch="device" />
   </platform>
   
