@@ -1,4 +1,4 @@
-﻿package com.phonegap.alipay;
+package com.phonegap.alipay;
 
 /**
  * 这个插件是基于支付宝实现的的phonegap插件.

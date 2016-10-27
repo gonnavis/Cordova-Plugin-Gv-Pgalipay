@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-gv-pgalipay",
-  "version": "2.5.3",
+  "version": "2.5.4",
   "description": "gv-pgalipay desc",
   "cordova": {
     "id": "cordova-plugin-gv-pgalipay",
