@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-gv-pgalipay",
+  "version": "2.5.2",
+  "description": "gv-pgalipay desc",
+  "cordova": {
+    "id": "cordova-plugin-gv-pgalipay",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonnavis/Cordova-Plugin-Gv-Pgalipay.git"
+  },
+  "keywords": [
+    "Alipay"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Gonnavis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gonnavis/Cordova-Plugin-Gv-Pgalipay/issues"
+  },
+  "homepage": "https://github.com/gonnavis/Cordova-Plugin-Gv-Pgalipay"
+}

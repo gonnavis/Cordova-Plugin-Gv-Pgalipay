@@ -1,0 +1,4 @@
+ <!--Ìí¼ÓÖ§¸¶±¦²å¼þ-->
+  <feature name="Pgalipay">
+    <param name="android-package" value="com.phonegap.alipay.Pgalipay" />
+  </feature>

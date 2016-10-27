@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-gv-pgalipay"
+        version="2.5.2">
+
+  <name>Toast</name>
+
+  <description>
+    gv-pgalipay desc
+  </description>
+
+  <author>gonnavis</author>
+
+  <license>MIT</license>
+
+  <keywords>alipay</keywords>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0"/>
+  </engines>
+
+
+  <js-module src="assets/www/pgalipay.js" name="Pgalipay">
+    <clobbers target="pgalipay" />
+  </js-module>
+
+  <!-- android -->
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Pgalipay">
+        <param name="android-package" value="com.phonegap.alipay.Pgalipay" />
+      </feature>
+    </config-file>
+
+    <source-file src="src/com/phonegap/alipay/Pgalipay.java" target-dir="src/com/phonegap/alipay"/>
+    <lib-file src="libs/alipaySdk-20160223.jar" arch="device" />
+  </platform>
+  
+</plugin>

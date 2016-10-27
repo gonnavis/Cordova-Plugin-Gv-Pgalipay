@@ -1,0 +1,24 @@
+<script type="text/javascript">
+
+	function  zhifu(){
+		var out_trade_no= "147896589549865";//15位订单号
+		var subject = "支付测试产品";
+		var bodtxt = "支付测试产品";
+		var total_fee = "0.01";
+  	window.plugins.Pgalipay.alipay(
+	   out_trade_no,subject,bodtxt,total_fee,
+	   			function(success) {	
+					  var element = document.getElementById('alipaylog');
+					  element.innerHTML = "支付结果1:"+success;
+					// alert(success);
+            }, function(fail) {
+               alert("encoding failed: " + fail);
+       }
+       );
+		
+ }
+</script>
+
+
+    <p> <button onclick="zhifu();">支付宝快捷支付</button></p>
+     <div id="alipaylog"> </div>
