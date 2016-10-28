@@ -18,15 +18,15 @@ package com.phonegap.alipay;
 public final class Keys {
 
 	//合作身份者id，以2088开头的16位纯数字
-	public static final String DEFAULT_PARTNER = "2121212";
+	public static final String DEFAULT_PARTNER = "";
 
 	//收款支付宝账号
-	public static final String DEFAULT_SELLER = "2121212@21212.com.cn";
+	public static final String DEFAULT_SELLER = "";
 
 	//商户私钥，自助生成
-	public static final String PRIVATE = "MIICWwIBAAKBgQCz+1212/ceYkseShAqmp/ETQG8AEiSlKO47hfw5kH+wyvp6QVaAvhF1K9ME5HwqOz8G5mgGWXDVy3WTkyrPZlm0Eu/SEPxPrGKQmqRNF89OvXXYSqIiwDEYnkjLos3m/SqyCCx3x3elxJxADoUiCYlBKHYvNcJpu6wIDAQABAoGAXRqvXmykoxKuNXbT07KozPL6xBEMlNPdBYxVmgMbSTvmfuGsIEAjgVz7ys+BPxPK76wPCe31GEyCe/IgQBkTzKpLuAuVbp7fM4KjC3PgwGVFUAQpHU8xjlVB/IJzt1ZrTqtyN0gxqbeio7gUvwdedd3iOg9ZPoOi1dzKyX3RbQECQQDglAdWBerchua0sgqU4Ao9U+3f0qjya0jaWayANAbvc/h9tHptuAzL8KuLltnWYiNPfOJ/9DQVPYcX1uycgcDZAkEAzScbYIXd5p2cvvb7fDO5qxD/VDzbZwTeygZl4eVRsG7WmErxwgEb5LnwoiMCEi3NsD/zc5O/hnLbL/xZ8ArTYwJAIzdzUw0IgF5zLSDCQghD8swHgFLDhYhHW142i8Ac2k3gSK4ViMEU2KI79F7KeDDZgqx9xDziMfZ9CcL9RamfOQJAP5bxm3ejEoqkPWUdCqCV2nqISjoa39HYpNJa3ixQp9mTVt1UFoh1du5Tsk4bpDriWNFZyudvJGORoUwdLJSOdQJATEod3RUAdGsFJv6A3xSWgkV+Lt+X7yT3FF3WB+jB+YCrmDLdAkKbHzNLLbmprh3dggGVe8MKks6cHwCH7aDhIw==";
+	public static final String PRIVATE = "";
    
    //支付宝默认公钥 ，请勿修改
-	public static final String PUBLIC = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnxj/9qwVfgoUh/y2W89L6BkRAFljhNhgPdyPuBV64bfQNN1PjbCzkIM6qRdKBoLPXmKKMiFYnkd6rAoprih3/PrQEB/VsW8OoM8fxn67UDYuyBTqA23MML9q1+ilIZwBC2AQ2UBVOrFXfFl75p6/B5KsiNG9zpgmLCUYuLkxpLQIDAQAB";
+	public static final String PUBLIC = "";
 
 }
